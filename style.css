@@ -231,6 +231,43 @@ span{
     padding: 70px 11% 60px;
 }
 
+.community-container{
+    margin-top: 2rem;
+}
+
+.community-row{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 10px 35px 30px;
+}
+
+.community-profile{
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+}
+
+.cp-name{
+    margin-top: 2rem;
+}
+
+.cp-name h3{
+    font-size: var(--p-font);
+    color: var(--second-color);
+}
+
+.cp-name p{
+    font-weight: 600;
+    color: #f4c070;
+}
+
+.community-row img{
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
 .community-text{
     margin-top: 2rem;
     text-align: center;
@@ -239,4 +276,24 @@ span{
 .community-text h2{
     font-size: var(--big-font);
     color: var(--text-color);
+}
+
+.preview-text h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--other-color);
+}
+
+.tags{
+    position: relative;
+    display: flex;
+}
+
+.tags h3{
+    margin-top: 1rem;
+    padding: 8px 18px;
+    color: var(--third-color);
+    font-size: var(--desc-font);
+    background-color: var(--bg-color);
+    margin-right: 1rem;
 }
