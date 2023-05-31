@@ -109,6 +109,7 @@ span{
     text-align: center;
 }
 
+
 .mate-text h2{
     font-size: var(--big-font);
     color: var(--text-color);
@@ -224,4 +225,18 @@ span{
 
 .btn:hover{
     background: var(--text-color);
+}
+
+.community{
+    padding: 70px 11% 60px;
+}
+
+.community-text{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.community-text h2{
+    font-size: var(--big-font);
+    color: var(--text-color);
 }
