@@ -233,9 +233,13 @@ span{
 
 .community-container{
     margin-top: 2rem;
+    display: grid;    
 }
 
 .community-row{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
     background-color: white;
     border-radius: 1rem;
     padding: 10px 35px 30px;
@@ -268,6 +272,12 @@ span{
     margin-right: 1rem;
 }
 
+.right img{
+    width: 40%;
+    height: auto;
+    margin-left: 3rem;
+}
+
 .community-text{
     margin-top: 2rem;
     text-align: center;
@@ -276,6 +286,16 @@ span{
 .community-text h2{
     font-size: var(--big-font);
     color: var(--text-color);
+}
+
+.preview{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.preview img{
+    width: 140%;
 }
 
 .preview-text h2{
