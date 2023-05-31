@@ -181,7 +181,7 @@ span{
 .row img {
     border-radius: 1rem;
     width: 100%;
-    height: auto;
+    height: 180px;
     transition: transform .50s ease;
     cursor: pointer;
     margin-top: 20px;
