@@ -144,7 +144,7 @@ span{
 
 .mates-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 2rem;
     align-items: stretch;
     margin-top: 4rem;
