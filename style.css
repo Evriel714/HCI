@@ -272,10 +272,14 @@ span{
     margin-right: 1rem;
 }
 
+.left{
+    margin-left: 20px;
+}
+
 .right img{
     width: 40%;
     height: auto;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 .community-text{
