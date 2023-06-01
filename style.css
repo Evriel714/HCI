@@ -38,7 +38,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 25px 14%;
+    padding: 10px 5%;
     transition: all .50s ease;
     z-index: 100;
     background-color: var(--main-color);
@@ -62,8 +62,10 @@ header{
     transform: scale(1.1);
 }
 
-.logo{
-    background-color: red;
+.logo, .profile{
+    border: 1px solid red;
+    height: 60px;
+    width: 55px;
 }
 
 span{
@@ -81,13 +83,14 @@ span{
     gap: 2rem;
 }
 
-.open-img{
-    margin-top: 70px;
+.open-img img{
+    margin-top: 13vh;
+    float:right;
 }
 
 .open-text{
     margin-left: 20%;
-    margin-top: 150px;
+    margin-top: 30vh;
 }
 
 .opening h2{
