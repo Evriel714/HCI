@@ -112,7 +112,7 @@ span{
     padding: 70px 11% 60px;
 }
 
-.mate-text{
+.middle-text{
     margin-top: 2rem;
     text-align: center;
 }
@@ -328,4 +328,8 @@ span{
     font-size: var(--desc-font);
     background-color: var(--bg-color);
     margin-right: 1rem;
+}
+
+.contactus{
+    padding: 70px 11% 60px;
 }
