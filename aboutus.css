@@ -1,0 +1,88 @@
+.about-us-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-us-hero {
+    width: 100%;
+    display: flex;
+    padding: var(--dl-space-space-threeunits);
+    position: relative;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("assets/bg.aboutus.png");
+  }
+  .about-us-text {
+    color: rgb(45, 2, 2);
+    height: auto;
+    font-size: 48px;
+    font-style: ExtraBold;
+    text-align: left;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-text1 {
+    font-family: Montserrat;
+    font-weight: 800;
+  }
+  .about-us-text2 {
+    color: #2d0202;
+    font-family: Montserrat;
+  }
+  .about-us-text3 {
+    color: #9b502e;
+  }
+  .about-us-text4 {
+    color: var(--dl-color-gray-black);
+    font-size: 24px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+    padding-left: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-sixunits);
+  }
+  .about-us-btn-group {
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  @media(max-width: 991px) {
+    .about-us-hero {
+      flex-direction: column;
+    }
+    .about-us-text4 {
+      text-align: center;
+    }
+  }
+  @media(max-width: 767px) {
+    .about-us-hero {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+  }
+  @media(max-width: 479px) {
+    .about-us-hero {
+      width: 100%;
+      padding: var(--dl-space-space-twounits);
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+    }
+    .about-us-btn-group {
+      flex-direction: column;
+    }
+  }
+  
