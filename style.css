@@ -110,6 +110,7 @@ span{
 .middle-text{
     margin-top: 2rem;
     text-align: center;
+    font-size: var(--big-font);
 }
 
 
@@ -327,4 +328,22 @@ span{
 
 .contactus{
     padding: 70px 11% 60px;
+}
+
+.content-text{
+    color: #622c1c;
+    font-weight: 400;
+}
+
+.content-text h3{
+    font-size: var(--big-font);
+}
+
+.contact-content{
+    text-align: center;
+    padding: 40px;
+}
+
+.socials{
+    margin-bottom: 2rem;
 }
