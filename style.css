@@ -62,9 +62,14 @@ header{
     transform: scale(1.1);
 }
 
-.logo, .profile{
-    border: 1px solid red;
+.logo{
+    border: 1px;
     height: 60px;
+    width: 55px;
+}
+.profile{
+    border: 1px;
+    height: 56px;
     width: 55px;
 }
 
