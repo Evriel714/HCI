@@ -353,3 +353,9 @@ span{
 .socials{
     margin-bottom: 2rem;
 }
+
+.contactus-body{
+    background-color: var(--main-color);
+    background-image: url("../../assets/contactus.svg");
+    background-size: cover;
+}
