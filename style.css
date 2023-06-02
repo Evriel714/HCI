@@ -116,6 +116,7 @@ span{
     margin-top: 2rem;
     text-align: center;
     font-size: var(--big-font);
+    color: var(--second-color);
 }
 
 
