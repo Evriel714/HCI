@@ -186,15 +186,15 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
-.row .middle img {
+.row img{
     border-radius: 1rem;
     width: 100%;
-    height: 180px;
+    height: 200px;
     transition: transform .50s ease;
     cursor: pointer;
-    margin-top: 20px;
     margin-bottom: 5px;
 }
 
@@ -367,13 +367,15 @@ span{
     margin-right: 1rem;
 }
 
+
+
 .symbol img{
     width: 40px;
-    height: auto;
+    height: auto; 
 
 }
 
 .symbol2 img{
-    width: 60px;
-    height: auto;
+    width: 60px; 
+    height: auto; 
 }
