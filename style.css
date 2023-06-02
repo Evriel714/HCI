@@ -348,14 +348,21 @@ span{
 .contact-content{
     text-align: center;
     padding: 40px;
+    align-items: center;
 }
 
 .socials{
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .contactus-body{
     background-color: var(--main-color);
     background-image: url("../../assets/contactus.svg");
     background-size: cover;
+}
+
+.logo-content{
+    margin-right: 1rem;
 }
