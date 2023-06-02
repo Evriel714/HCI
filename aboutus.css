@@ -43,15 +43,19 @@
   }
   .about-us-text4 {
     color: var(--dl-color-gray-black);
-    font-size: 24px;
+    font-size: 18px;
     align-self: center;
-    margin-top: var(--dl-space-space-twounits);
+    color: #2d0202;
+    font-family: Montserrat;
+   margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-left: var(--dl-space-space-sixunits);
     margin-right: var(--dl-space-space-sixunits);
     padding-left: var(--dl-space-space-sixunits);
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-sixunits);
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .about-us-btn-group {
     border: 2px dashed rgba(120, 120, 120, 0.4);
