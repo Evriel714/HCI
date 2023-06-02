@@ -109,7 +109,7 @@ span{
 }
 
 .mates{
-    padding: 70px 11% 60px;
+    padding: 70px 7% 60px;
 }
 
 .middle-text{
@@ -370,4 +370,9 @@ span{
     width: 40px;
     height: auto;
 
+}
+
+.symbol2 img{
+    width: 60px;
+    height: auto;
 }
