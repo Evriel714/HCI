@@ -345,9 +345,14 @@ span{
     position: relative;
     background: var(--fourth-color);
     width: 475px;
-    height: 1165px;
+    height: auto;
     left: 53px;
     top: 40px;
+}
+
+.profPict{
+    width: 378px;
+    height: 378px;
 }
 
 .contact-content{
