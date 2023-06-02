@@ -333,3 +333,22 @@ span{
 .contactus{
     padding: 70px 11% 60px;
 }
+
+.prof{
+    padding-top: 80px;
+    background: var(--main-color);
+}
+
+.left{
+    position: relative;
+    background: var(--fourth-color);
+    width: 475px;
+    height: 1165px;
+    left: 53px;
+    top: 40px;
+}
+
+.profPict{
+    width: 378px;
+    height: 378px;
+}
