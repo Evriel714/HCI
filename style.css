@@ -336,13 +336,18 @@ span{
     padding: 70px 11% 60px;
 }
 
-.content-text{
-    color: #622c1c;
-    font-weight: 400;
+.prof{
+    padding-top: 80px;
+    background: var(--main-color);
 }
 
-.content-text h3{
-    font-size: var(--big-font);
+.left{
+    position: relative;
+    background: var(--fourth-color);
+    width: 475px;
+    height: 1165px;
+    left: 53px;
+    top: 40px;
 }
 
 .contact-content{
@@ -368,7 +373,6 @@ span{
 }
 
 
-
 .symbol img{
     width: 40px;
     height: auto; 
@@ -378,4 +382,9 @@ span{
 .symbol2 img{
     width: 60px; 
     height: auto; 
+}
+
+.profPict{
+    width: 378px;
+    height: 378px;
 }
