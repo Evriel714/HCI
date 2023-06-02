@@ -260,6 +260,40 @@ span{
     display: flex;
 }
 
+.replies{
+    margin-left: 4rem;
+}
+.cp-profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cp-nontags{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cp-tags{
+    margin-top: 2rem;
+}
+
+.reply-btn{
+    background-color: var(--second-color);
+    color:var(--fourth-color);
+    padding: 8px 18px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.rply{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+}
 .cp-name{
     margin-top: 2rem;
 }
@@ -313,8 +347,11 @@ span{
 
 .preview-text h2{
     margin-top: 5px;
-    margin-bottom: 5px;
     color: var(--other-color);
+}
+
+.preview-text p{
+    margin-top: 5px;
 }
 
 .tags{
@@ -323,12 +360,15 @@ span{
 }
 
 .tags h3{
+    border-radius: 5px;
     margin-top: 1rem;
     padding: 8px 18px;
     color: var(--third-color);
     font-size: var(--desc-font);
     background-color: var(--bg-color);
     margin-right: 1rem;
+    width: 120px;
+    height: 40px;
 }
 
 .contactus{
