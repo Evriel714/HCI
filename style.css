@@ -109,13 +109,14 @@ span{
 }
 
 .mates{
-    padding: 70px 11% 60px;
+    padding: 70px 7% 60px;
 }
 
 .middle-text{
     margin-top: 2rem;
     text-align: center;
     font-size: var(--big-font);
+    color: var(--second-color);
 }
 
 
