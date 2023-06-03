@@ -322,7 +322,7 @@ span{
 .right img{
     width: 40%;
     height: auto;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 
 .community-text{
@@ -336,9 +336,7 @@ span{
 }
 
 .preview{
-    display: flex;
     position: relative;
-    justify-content: space-between;
 }
 
 .preview img{
@@ -346,6 +344,7 @@ span{
 }
 
 .preview-text h2{
+    text-align: left;
     margin-top: 5px;
     color: var(--other-color);
 }
