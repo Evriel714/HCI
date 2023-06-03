@@ -473,3 +473,43 @@ span{
     width: 378px;
     height: 378px;
 }
+
+.aboutus{
+    margin-top: 2rem;
+    padding: 70px 11% 60px;
+    align-items: center;
+}
+
+.about-middle-text h2{
+    color: var(--text-color);
+    font-size: var(--big-font);
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-middle-text h3{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    font-size: var(--big-font);
+    color: var(--second-color);
+}
+
+.about-middle-text{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-body{
+    background-image: url("../../assets/aboutus.svg");
+    background-size: cover;
+}
+
+.aboutus-text{
+    padding: 50px 20%;
+    text-align: center;
+}
+
+.aboutus-text p{
+    font-size: var(--p-font);
+}
