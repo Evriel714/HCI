@@ -176,6 +176,8 @@ span{
 .row h3{
     color: var(--text-color);
     margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: left;
 }
 
 .in-text h2{
