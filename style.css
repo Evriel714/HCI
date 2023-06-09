@@ -658,7 +658,7 @@ span{
 }
 
 .viewmate{
-    padding: 70px 11% 60px;
+    padding: 70px 3% 60px;
 }
 
 .view-mate{
@@ -670,7 +670,10 @@ span{
     border-radius: 1rem;
     padding: 20px 25px 25px 25px;
     display: flex;
-    gap: 2rem;
+}
+
+.vm-left{
+    margin-right: 2rem;
 }
 
 .vm-upper-text{
@@ -745,4 +748,54 @@ span{
     font-weight: 400;
     color: var(--other-color);
     margin-bottom: 1rem;
+}
+
+
+.symbol3 img{
+    width: 46px;
+}
+
+.upper-info{
+    background-color: var(--second-color);
+    border-radius: 1rem;
+    padding: 20px 30px;
+}
+
+.upper-info h3{
+    color: var(--bg-color);
+    font-size: 16px;
+}
+
+.viewmate-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.syi-btn{
+    position: relative;
+    background-color: var(--bg-color);
+    border-radius: 3rem;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: var(--second-color);
+    font-size: 12px;
+}
+
+.rf-btn{
+    background-color: var(--second-color);
+    border: solid;
+    border-color: var(--bg-color);
+    color: var(--bg-color);
+    border-radius: 3rem;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.upper-info{
+    display: grid;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
 }
