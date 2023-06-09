@@ -18,6 +18,7 @@
     --third-color: #f4c070;
     --fourth-color: #fbf6ed;
     --bg-color: #F0F0F0;
+    --otherr-color: #C2AEA6;
 
     --big-font: 38px;
     --desc-font: 16px;
@@ -667,8 +668,9 @@ span{
 .pinfo{
     background-color: var(--bg-color);
     border-radius: 1rem;
-    padding: 10px 25px;
+    padding: 20px 25px 25px 25px;
     display: flex;
+    gap: 2rem;
 }
 
 .vm-upper-text{
@@ -691,7 +693,56 @@ span{
 .middle{
     border-radius: 1rem;
     width: 328.39px;
-    height: auto;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+.char h5{
+    color: var(--otherr-color);
+    font-size: 16px;
+    text-align: left;
+}
+
+.char h4{
+    text-align: left;
+    line-height: 5px;
+    font-size: 16px;
+}
+
+.vm-lower-text{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
+
+.right-upper h2{
+    text-align: left;
+}
+
+.right-upper h3{
+    font-size: 16px;
+    text-align: left;
+}
+
+.desc h5{
+    margin-top: 1rem;
+    font-size: 16px;
+    color: var(--otherr-color);
+    text-align: left;
+}
+
+.desc h6{
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+    background-color: var(--otherr-color);
+    width: 427.77px;
+    height: 180px;
+    font-weight: 400;
+    color: var(--other-color);
+    margin-bottom: 1rem;
+}
