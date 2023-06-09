@@ -653,3 +653,43 @@ span{
 .aboutus-text p{
     font-size: var(--p-font);
 }
+
+.viewmate{
+    padding: 70px 11% 60px;
+}
+
+.view-mate{
+    background-color: var(--main-color);
+}
+
+.pinfo{
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+    padding: 10px 25px;
+    display: flex;
+}
+
+.vm-upper-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.vm-name{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.vm-symbol img{
+    width: 40px;
+    height: auto;
+}
+
+.middle{
+    border-radius: 1rem;
+    width: 328.39px;
+    height: auto;
+}
+
+
