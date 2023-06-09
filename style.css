@@ -380,7 +380,7 @@ span{
     background-color: var(--main-color);
 }
 
-.left{
+.left-part{
     position: relative;
     background: var(--fourth-color);
     width: 475px;
@@ -399,7 +399,7 @@ span{
     border-radius: 15px;
 }
 
-.left h1,h2,h3,h4,h5{
+.left-part h1,h2,h3,h4,h5{
     font-style: normal;
     text-align: center;
     letter-spacing: -0.05em;
@@ -408,34 +408,34 @@ span{
     padding: 5px;
 }
 
-.left h1{
+.left-part h1{
     margin-top: 60px;
     font-size: 40px;
     line-height: 54px;
     color: #2D0202;
 }
 
-.left h2{
+.left-part h2{
     font-size: 32px;
     line-height: 44px;
     color: #9B502E;
 }
 
-.left h3{
+.left-part h3{
     font-size: 32px;
     line-height: 44px;
     text-decoration-line: underline;
     color: #F4C070;
 }
 
-.left h4{
+.left-part h4{
     font-size: 32px;
     line-height: 44px;
     color: #9B502E;
     padding-top: 60px;
 }
 
-.left h5{
+.left-part h5{
     font-size: 32px;
     line-height: 44px;
     color: #9B502E;
