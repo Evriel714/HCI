@@ -623,14 +623,14 @@ span{
     align-items: center;
 }
 
-.about-middle-text h2{
+.about-middle-text h2,.home-about-middle-text h2{
     color: var(--text-color);
     font-size: var(--big-font);
     font-weight: bold;
     text-align: center;
 }
 
-.about-middle-text h3{
+.about-middle-text h3,.home-about-middle-text h3{
     font-family: 'Kaushan Script', cursive;
     font-weight: 500;
     font-size: var(--big-font);
@@ -643,6 +643,15 @@ span{
     justify-content: center;
 }
 
+.home-about-middle-text{
+    display: flex;
+}
+
+.txt-home-aboutus{
+    margin-left: 5vw;
+    margin-right: 60vw;
+}
+
 .aboutus-body{
     background-image: url("../../assets/aboutus.svg");
     background-size: cover;
@@ -653,9 +662,11 @@ span{
     text-align: center;
 }
 
-.aboutus-text p{
+.aboutus-text p, .home-aboutus-text p{
     font-size: var(--p-font);
 }
+
+
 
 .viewmate{
     padding: 70px 3% 60px;
@@ -798,4 +809,73 @@ span{
     gap: 0.5rem;
     align-items: center;
     text-align: center;
+}
+
+.home-mate{
+    background: url(/assets/dog\ home.png);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.txt-home-mate{
+    margin-top: 40vh;
+    margin-right: 8vw;
+}
+
+.txt-home-community{
+    margin-top: 40vh;
+    margin-left: 20vw;
+    width: 600px;
+}
+.home-mate h1,.home-community h1{
+    font-size: var(--big-font);
+}
+
+.home-mate p{
+    font-size: var(--p-font);
+}
+
+.btn-mate{
+    margin-top: 2vh;
+}
+
+.btn-community{
+    margin-top: 2vh;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-aboutus{
+    margin-top: 2vh;
+    display: flex;
+    gap: 15px;
+}
+
+.home-community{
+    background: url(/assets/cat\ home.png);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+}
+
+.home-aboutus{
+    
+    background: url(/assets/ABOUT\ US.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
