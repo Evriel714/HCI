@@ -853,15 +853,31 @@ span{
     background-color: var(--second-color);
     border-radius: 1rem;
     display: grid;
+    padding: 15px;
+    color: var(--bg-color);
     /* text-align: center; */
 }
 
 .lower-info-upper{
-    
+    margin-bottom: 1rem;
 }
 
 .lower-info-upper h3{
-    
+    font-size: 16px;
+}
+
+.lower-info-upper h4{
+    line-height: 1px;
+    font-size: 11px;
+}
+
+.loc{
+    display: flex;
+
+}
+
+.loc h3{
+    font-size: 12px;
 }
 
 .home-mate{
