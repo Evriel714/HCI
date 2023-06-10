@@ -792,10 +792,14 @@ span{
     width: 46px;
 }
 
+
 .upper-info{
     background-color: var(--second-color);
     border-radius: 1rem;
-    padding: 20px 30px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .upper-info h3{
@@ -813,7 +817,7 @@ span{
     position: relative;
     background-color: var(--bg-color);
     border-radius: 3rem;
-    padding: 10px 15px;
+    padding: 10px 4px;
     font-weight: bold;
     color: var(--second-color);
     font-size: 12px;
@@ -825,16 +829,81 @@ span{
     border-color: var(--bg-color);
     color: var(--bg-color);
     border-radius: 3rem;
-    padding: 10px 25px;
+    padding: 10px 4px;
     font-weight: bold;
     font-size: 12px;
+    text-align: center;
 }
 
-.upper-info{
+
+.upper-info-lower{
     display: grid;
-    gap: 0.5rem;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.upper-info-lower .sponsor h3, .favorite h3{
+    font-size: 12px;
     text-align: center;
+}
+
+.sponsor, .favorite{
+    border-top: 1px solid black;
+    padding: 15px 10px;
+}
+
+.sponsor{
+    border-right: 1px solid #000;
+}
+
+.favorite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite h2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+.upper-info-upper{
+    display: grid;
+    gap: 1rem;
+    padding: 20px 30px;
+}
+
+.lower-info{
+    margin-top: 2rem;
+    background-color: var(--second-color);
+    border-radius: 1rem;
+    display: grid;
+    padding: 15px;
+    color: var(--bg-color);
+    /* text-align: center; */
+}
+
+.lower-info-upper{
+    margin-bottom: 1rem;
+}
+
+.lower-info-upper h3{
+    font-size: 16px;
+}
+
+.lower-info-upper h4{
+    line-height: 1px;
+    font-size: 11px;
+}
+
+.loc{
+    display: flex;
+
+}
+
+.loc h3{
+    font-size: 12px;
 }
 
 .home-mate{
@@ -905,3 +974,4 @@ span{
     align-items: center;
     gap: 2rem;
 }
+
