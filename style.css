@@ -381,13 +381,14 @@ span{
 .prof{
     padding-top: 80px;
     background-color: var(--main-color);
+    height: 220vh;
 }
 
 .left-part{
     position: relative;
     background: var(--fourth-color);
     width: 475px;
-    height: 1230px;
+    height: 1130px;
     left: 50px;
     top: 40px;
     border-radius: 15px;
@@ -402,7 +403,7 @@ span{
     border-radius: 15px;
 }
 
-.left-part h1,h2,h3,h4,h5{
+.left-part h1,.left-part h2,.left-part h3,.left-part h4,.left-part h5, .tags h3{
     font-style: normal;
     text-align: center;
     letter-spacing: -0.05em;
@@ -578,6 +579,91 @@ span{
     flex-grow: 0;
 }
 
+.kanansatu{
+    position: absolute;
+    width: 670px;
+    height: 560px;
+    margin-left: 90vh;
+    margin-right: 50px;
+    top: 120px;
+    background: #FBF6ED;
+    border-radius: 15px;
+    }
+
+.kanandua{
+    position: absolute;
+    width: 670px;
+    height: 560px;
+    margin-left: 90vh;
+    margin-right: 50px;
+    top: 691px;
+    background:#FBF6ED;
+    border-radius: 15px;
+    }
+
+
+.kanansatu h1, .kanandua h1{
+    width: 322px;
+    height: 56px;
+    margin-left: 40px;
+    margin-top: 55px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #9B502E;
+    padding-bottom: 80px;
+}
+
+.kanansatu h2,.kanansatu h4,.kanansatu h8{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #F4C070;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.kanansatu h3,.kanansatu h5,.kanansatu h9{
+    margin-left: 40px;
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #2D0202;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.kanansatu h6{
+    margin-top: -216px;
+    margin-left: 280px;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.05em;
+    color: #F4C070;
+    margin-bottom: 8px;
+}
+
+.kanansatu h7{
+    margin-left: 284px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    color: #2D0202;
+}
+
+.recentVi3w{
+    height: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
 .contact-content{
     text-align: center;
     padding: 40px;
@@ -618,9 +704,13 @@ span{
 }
 
 .aboutus{
+    background-image: url("../../assets/aboutus.svg");
+    background-size: cover;
     margin-top: 2rem;
     padding: 70px 11% 60px;
     align-items: center;
+    height: 900px;
+    background-position: center;
 }
 
 .about-middle-text h2,.home-about-middle-text h2{
@@ -652,11 +742,6 @@ span{
     margin-right: 60vw;
 }
 
-.aboutus-body{
-    background-image: url("../../assets/aboutus.svg");
-    background-size: cover;
-}
-
 .aboutus-text{
     padding: 50px 20%;
     text-align: center;
@@ -666,6 +751,51 @@ span{
     font-size: var(--p-font);
 }
 
+.aboutus-2{
+    background-color: var(--main-color);
+    background-image: url("assets/aboutus2.png");
+    background-size: cover;
+    margin-top: 2rem;
+    padding: 70px 6% 60px;
+    height: 900px;
+    background-position: center;
+}
+
+.aboutus2-text{
+    margin-top: 2rem;
+    padding: 0px 56% 0px 0px;
+}
+
+.aboutus2-text h2{
+    font-size: 48px;
+    text-align: left;
+}
+
+.aboutus2-text p{
+    font-size: var(--p-font);
+}
+
+.aboutus-3{
+    background-image: url("assets/aboutus3.svg");
+    background-size: cover;
+    padding: 70px 6% 60px;
+    height: 900px;
+    background-position: center;
+    text-align: left;
+}
+
+.aboutus3-text{
+    margin-top: 10rem;
+    padding: 0px 0px 0px 57%;
+}
+
+.aboutus3-text h2{
+    font-size: 48px;
+    text-align: left;
+}
+.aboutus3-text p{
+    font-size: var(--p-font);
+}
 
 
 .viewmate{
@@ -677,6 +807,7 @@ span{
 }
 
 .pinfo{
+    position: relative;
     background-color: var(--bg-color);
     border-radius: 1rem;
     padding: 20px 25px 25px 25px;
@@ -729,8 +860,6 @@ span{
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-
 .right-upper h2{
     text-align: left;
 }
@@ -763,13 +892,20 @@ span{
 
 
 .symbol3 img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     width: 46px;
 }
+
 
 .upper-info{
     background-color: var(--second-color);
     border-radius: 1rem;
-    padding: 20px 30px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .upper-info h3{
@@ -780,14 +916,15 @@ span{
 .viewmate-cont{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 5rem;
+    margin-top: 2rem;
 }
 
 .syi-btn{
     position: relative;
     background-color: var(--bg-color);
     border-radius: 3rem;
-    padding: 10px 15px;
+    padding: 10px 4px;
     font-weight: bold;
     color: var(--second-color);
     font-size: 12px;
@@ -799,16 +936,97 @@ span{
     border-color: var(--bg-color);
     color: var(--bg-color);
     border-radius: 3rem;
-    padding: 10px 25px;
+    padding: 10px 4px;
     font-weight: bold;
     font-size: 12px;
+    text-align: center;
 }
 
-.upper-info{
+
+.upper-info-lower{
     display: grid;
-    gap: 0.5rem;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.upper-info-lower .sponsor h3, .favorite h3{
+    font-size: 12px;
     text-align: center;
+}
+
+.sponsor, .favorite{
+    border-top: 1px solid black;
+    padding: 15px 10px;
+}
+
+.sponsor{
+    border-right: 1px solid #000;
+}
+
+.favorite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite h2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+.upper-info-upper{
+    display: grid;
+    gap: 1rem;
+    padding: 20px 30px;
+}
+
+.lower-info{
+    margin-top: 2rem;
+    background-color: var(--second-color);
+    border-radius: 1rem;
+    display: grid;
+    padding: 15px;
+    color: var(--bg-color);
+    /* text-align: center; */
+}
+
+.lower-info-upper{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.lower-info-upper h3{
+    text-align: left;
+    font-size: 16px;
+}
+
+.lower-info-upper h4{
+    text-align: left;
+    line-height: 1px;
+    font-size: 11px;
+}
+
+.lower-info-upper-text{
+    text-align: left;
+}
+
+.lower-info-upper img{
+    width: 70px;
+}
+
+.loc-contact{
+    margin-top: 1rem;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+}
+
+.loc h3{
+    font-size: 12px;
+    text-align: left;
 }
 
 .home-mate{
@@ -879,3 +1097,5 @@ span{
     align-items: center;
     gap: 2rem;
 }
+
+
