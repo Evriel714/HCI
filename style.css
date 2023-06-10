@@ -766,9 +766,13 @@ span{
     width: 46px;
 }
 
+
 .upper-info{
     background-color: var(--second-color);
     border-radius: 1rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -802,13 +806,9 @@ span{
     padding: 10px 4px;
     font-weight: bold;
     font-size: 12px;
-}
-
-.upper-info{
-    display: grid;
-    align-items: center;
     text-align: center;
 }
+
 
 .upper-info-lower{
     display: grid;
@@ -846,6 +846,22 @@ span{
     display: grid;
     gap: 1rem;
     padding: 20px 30px;
+}
+
+.lower-info{
+    margin-top: 2rem;
+    background-color: var(--second-color);
+    border-radius: 1rem;
+    display: grid;
+    /* text-align: center; */
+}
+
+.lower-info-upper{
+    
+}
+
+.lower-info-upper h3{
+    
 }
 
 .home-mate{
