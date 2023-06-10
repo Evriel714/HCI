@@ -1085,7 +1085,6 @@ span{
 }
 
 .home-aboutus{
-    
     background: url(/assets/ABOUT\ US.png);
     background-position: center;
     background-size: cover;
@@ -1098,4 +1097,146 @@ span{
     gap: 2rem;
 }
 
+.chat-content{
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 104px;
+    margin-left: 85px;
+    display: flex;
+}
+.chat-list{
+    background-color: #FFFFFF;
+    padding: 25px;
+    width: 486px;
+    height: 420px;
+    border-radius: 15px;
+}
+.search-bar{
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    padding: 5px;
+}
+.search-bar img{
+    width: 50px;
+}
+.chat-list-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.chat-list-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    background-color: #C2AEA6;
+    margin-right: 20px;
+}
 
+.chat-text h2{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.chat-text h3{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chat-screen{
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    border-radius: 15px;
+    width: 768px;
+    height: 701px;
+    padding: 25px;
+}
+
+.chat-topbar{
+    display: flex;
+}
+.chat-topbar img{
+    width: 50px;
+}
+
+.chat-title{
+    margin-left: 20px;
+}
+.chat-title h2{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.chat-title h3{
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.text-bubble{
+    margin-top: 50px;
+    display: grid;
+}
+
+.bubble1{
+    background-color: var(--bg-color);
+    height: 94px;
+    width: 402px;
+    border-radius:20px;
+}
+.bubble2{
+    background-color: var(--main-color);
+    height: 70px;
+    width: 367px;
+    border-radius:20px;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.bubble3{
+    background-color: var(--bg-color);
+    height: 55px;
+    width: 367px;
+    border-radius:20px;
+    margin-top: 15px;
+}
+
+.bubble4{
+    background-color: var(--bg-color);
+    height: 94px;
+    width: 411px;
+    border-radius:20px;
+    margin-top: 5px;
+}
+
+.bubble5{
+    background-color: var(--main-color);
+    height: 49px;
+    width: 367px;
+    border-radius:20px;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+.bubble6{
+    background-color: var(--main-color);
+    height: 67px;
+    width: 367px;
+    border-radius:20px;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+.chat-type{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: var(--bg-color);
+}
+
+.chat-type img{
+    padding: 10px;
+    width: 50px;
+}
