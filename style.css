@@ -103,6 +103,7 @@ span{
     font-size: 96px;
     font-family: 'Kaushan Script', cursive;
     color: var(--text-color);
+    margin-left: -120px;
 }
 
 .opening p{
@@ -381,13 +382,14 @@ span{
 .prof{
     padding-top: 80px;
     background-color: var(--main-color);
+    height: 220vh;
 }
 
 .left-part{
     position: relative;
     background: var(--fourth-color);
     width: 475px;
-    height: 1230px;
+    height: 1130px;
     left: 50px;
     top: 40px;
     border-radius: 15px;
@@ -577,6 +579,30 @@ span{
     order: 0;
     flex-grow: 0;
 }
+
+.kanansatu{
+    position: absolute;
+    width: 670px;
+    height: 560px;
+    margin-left: 90vh;
+    margin-right: 50px;
+    top: 120px;
+    background: #FBF6ED;
+    border-radius: 15px;
+    }
+
+.kanandua{
+    position: absolute;
+    width: 670px;
+    height: 560px;
+    margin-left: 90vh;
+    margin-right: 50px;
+    top: 691px;
+    background:#FBF6ED;
+    border-radius: 15px;
+    }
+
+
 
 .contact-content{
     text-align: center;
