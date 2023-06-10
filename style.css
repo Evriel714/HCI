@@ -103,7 +103,6 @@ span{
     font-size: 96px;
     font-family: 'Kaushan Script', cursive;
     color: var(--text-color);
-    margin-left: -120px;
 }
 
 .opening p{
@@ -404,7 +403,7 @@ span{
     border-radius: 15px;
 }
 
-.left-part h1,h2,h3,h4,h5{
+.left-part h1,.left-part h2,.left-part h3,.left-part h4,.left-part h5, .tags h3{
     font-style: normal;
     text-align: center;
     letter-spacing: -0.05em;
@@ -601,6 +600,67 @@ span{
     background:#FBF6ED;
     border-radius: 15px;
     }
+
+
+.kanansatu h1, .kanandua h1{
+    width: 322px;
+    height: 56px;
+    margin-left: 40px;
+    margin-top: 55px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #9B502E;
+    padding-bottom: 80px;
+}
+
+.kanansatu h2,.kanansatu h4,.kanansatu h8{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #F4C070;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.kanansatu h3,.kanansatu h5,.kanansatu h9{
+    margin-left: 40px;
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #2D0202;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.kanansatu h6{
+    margin-top: -216px;
+    margin-left: 280px;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.05em;
+    color: #F4C070;
+    margin-bottom: 8px;
+}
+
+.kanansatu h7{
+    margin-left: 284px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    color: #2D0202;
+}
+
+.recentVi3w{
+    height: 310px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
 
 
 
