@@ -644,9 +644,13 @@ span{
 }
 
 .aboutus{
+    background-image: url("../../assets/aboutus.svg");
+    background-size: cover;
     margin-top: 2rem;
     padding: 70px 11% 60px;
     align-items: center;
+    height: 900px;
+    background-position: center;
 }
 
 .about-middle-text h2,.home-about-middle-text h2{
@@ -678,11 +682,6 @@ span{
     margin-right: 60vw;
 }
 
-.aboutus-body{
-    background-image: url("../../assets/aboutus.svg");
-    background-size: cover;
-}
-
 .aboutus-text{
     padding: 50px 20%;
     text-align: center;
@@ -692,6 +691,51 @@ span{
     font-size: var(--p-font);
 }
 
+.aboutus-2{
+    background-color: var(--main-color);
+    background-image: url("assets/aboutus2.png");
+    background-size: cover;
+    margin-top: 2rem;
+    padding: 70px 6% 60px;
+    height: 900px;
+    background-position: center;
+}
+
+.aboutus2-text{
+    margin-top: 2rem;
+    padding: 0px 56% 0px 0px;
+}
+
+.aboutus2-text h2{
+    font-size: 48px;
+    text-align: left;
+}
+
+.aboutus2-text p{
+    font-size: var(--p-font);
+}
+
+.aboutus-3{
+    background-image: url("assets/aboutus3.svg");
+    background-size: cover;
+    padding: 70px 6% 60px;
+    height: 900px;
+    background-position: center;
+    text-align: left;
+}
+
+.aboutus3-text{
+    margin-top: 10rem;
+    padding: 0px 0px 0px 57%;
+}
+
+.aboutus3-text h2{
+    font-size: 48px;
+    text-align: left;
+}
+.aboutus3-text p{
+    font-size: var(--p-font);
+}
 
 
 .viewmate{
@@ -756,8 +800,6 @@ span{
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-
 .right-upper h2{
     text-align: left;
 }
@@ -814,7 +856,7 @@ span{
 .viewmate-cont{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 5rem;
     margin-top: 2rem;
 }
 
@@ -995,4 +1037,5 @@ span{
     align-items: center;
     gap: 2rem;
 }
+
 
