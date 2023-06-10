@@ -677,6 +677,7 @@ span{
 }
 
 .pinfo{
+    position: relative;
     background-color: var(--bg-color);
     border-radius: 1rem;
     padding: 20px 25px 25px 25px;
@@ -763,6 +764,9 @@ span{
 
 
 .symbol3 img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     width: 46px;
 }
 
@@ -785,6 +789,7 @@ span{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    margin-top: 2rem;
 }
 
 .syi-btn{
@@ -860,24 +865,40 @@ span{
 
 .lower-info-upper{
     margin-bottom: 1rem;
+    display: flex;
 }
 
 .lower-info-upper h3{
+    text-align: left;
     font-size: 16px;
 }
 
 .lower-info-upper h4{
+    text-align: left;
     line-height: 1px;
     font-size: 11px;
 }
 
+.lower-info-upper-text{
+    text-align: left;
+}
+
+.lower-info-upper img{
+    width: 70px;
+}
+
+.loc-contact{
+    margin-top: 1rem;
+}
+
 .loc{
     display: flex;
-
+    align-items: center;
 }
 
 .loc h3{
     font-size: 12px;
+    text-align: left;
 }
 
 .home-mate{
