@@ -994,6 +994,7 @@ span{
 .lower-info-upper{
     margin-bottom: 1rem;
     display: flex;
+    align-items: center;
 }
 
 .lower-info-upper h3{
@@ -1003,7 +1004,6 @@ span{
 
 .lower-info-upper h4{
     text-align: left;
-    line-height: 1px;
     font-size: 11px;
 }
 
