@@ -1050,7 +1050,7 @@ span{
 }
 
 .home-mate{
-    background: url(/assets/dog\ home.png);
+    background: url("assets/dog home.png");
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -1095,7 +1095,7 @@ span{
 }
 
 .home-community{
-    background: url(/assets/cat\ home.png);
+    background: url("assets/cat home.png");
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -1105,7 +1105,7 @@ span{
 }
 
 .home-aboutus{
-    background: url(/assets/ABOUT\ US.png);
+    background: url("assets/ABOUT US.png");
     background-position: center;
     background-size: cover;
     position: relative;
