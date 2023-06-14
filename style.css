@@ -812,6 +812,7 @@ span{
     border-radius: 1rem;
     padding: 20px 25px 25px 25px;
     display: flex;
+    width: 965px;
 }
 
 .vm-left{
@@ -834,6 +835,7 @@ span{
     width: 40px;
     height: auto;
 }
+
 
 .middle{
     border-radius: 1rem;
