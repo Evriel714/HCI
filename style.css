@@ -376,7 +376,19 @@ span{
 .contactus{
     margin-top: 2rem;
     padding: 70px 11% 60px;
+    background-color: var(--main-color);
+    background-image: url("../../assets/contactus.png");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
+
+.content-text{
+    color: var(--second-color);
+    align-items: center;
+}
+
+
 
 .prof{
     padding-top: 80px;
@@ -662,25 +674,31 @@ span{
     margin-top: 15px;
 }
 
+.contactus .middle-text{
+    color: var(--text-color);
+    text-align: center;
+}
 
+.content-text h3{
+    text-align: left;
+    font-size: 32px;
+}
 
 .contact-content{
-    text-align: center;
-    padding: 40px;
+    margin-top: 1rem;
+    text-align: left;
+    padding: 80px 38% 0px 35%;
     align-items: center;
 }
 
 .socials{
     margin-bottom: 2rem;
     display: flex;
-    justify-content: center;
+    gap: 1rem;
+    align-items: center;
 }
 
-.contactus-body{
-    background-color: var(--main-color);
-    background-image: url("../../assets/contactus.svg");
-    background-size: cover;
-}
+
 
 .logo-content{
     margin-right: 1rem;
